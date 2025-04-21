@@ -1,0 +1,77 @@
+:root {
+  --gap: 1rem;
+  --border-color: #ffd700;
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.app-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: visible;          
+  font-family: 'Press Start 2P', cursive;
+}
+
+.sidebar {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: var(--gap);
+  box-sizing: border-box;
+}
+
+.right-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--gap);
+  box-sizing: border-box;
+  gap: var(--gap);
+  overflow: visible;        
+}
+
+/* Skills grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+}
+
+.rpg-bordered-section {
+  border: 3px solid var(--border-color);
+  background: #2a2a40;
+  box-shadow: inset 0 0 6px #000;
+  border-radius: 6px;
+  padding: var(--gap);
+  box-sizing: border-box;
+}
+
+.map-wrapper {
+  position: relative;
+  flex: 1;
+  overflow: visible;        
+  border: 3px solid var(--border-color);
+  border-radius: 6px;
+  background: #2a2a40;
+}
+
+.rpg-map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

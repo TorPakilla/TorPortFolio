@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.rpg-layout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}
+
+.rpg-frame {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem;
+  background-color: #1a1a2d;
+  color: #f8f8f2;
+  border-right: 4px double #ffd700;
+  box-shadow: inset 0 0 10px #000;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.rpg-header {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+  color: #00ffff;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 2px dashed #444;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.rpg-avatar {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #ffd700;
+  margin: 0 auto 1rem;
+}
+
+.rpg-name {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.rpg-role {
+  text-align: center;
+  font-size: 0.6rem;
+  color: #ffa500;
+  margin-bottom: 1rem;
+}
+
+.rpg-stats-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.rpg-stats {
+  width: 100%;
+  background-color: #222244;
+  padding: 0.5rem;
+  border: 2px groove #888;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 0.75rem;
+  box-sizing: border-box;
+}
+
+.rpg-section h3 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #00ffff;
+  font-size: 0.76rem;
+  margin-bottom: 0.5rem;
+}
+
+.rpg-section p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.6rem;
+  margin: 0.25rem 0;
+}
+
+.rpg-section p svg {
+  font-size: 0.6rem;
+  vertical-align: middle;
+}

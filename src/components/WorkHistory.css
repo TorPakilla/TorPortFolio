@@ -1,0 +1,20 @@
+.work-history-bar {
+  position: fixed;
+  top: 0;
+  left: 320px;      
+  right: 0;
+  z-index: 999;
+  display: flex;
+  overflow-x: auto;
+  background: rgba(30,30,47,0.85);
+  padding:0.75rem 1rem;
+  border-bottom:2px solid #444;
+  backdrop-filter:blur(4px);
+  font-family:'Press Start 2P',monospace;
+  color:#0ff;
+}
+
+.work-history-entry {
+  margin-right:1.5rem;
+  white-space:nowrap;
+}

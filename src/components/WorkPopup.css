@@ -1,0 +1,54 @@
+.work-popup {
+  font-family: 'Press Start 2P', cursive;
+  background: #1B1B3A;
+  color: #EFF0F1;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 600px;
+  max-width: 90vw;
+  box-sizing: border-box;
+}
+
+.work-popup-img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.work-popup-title {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  color: #00FFBF;
+}
+
+.work-popup-subtitle {
+  margin: 0 0 0.5rem;
+  font-size: 0.6rem;
+  color: #AAD8FF;
+}
+
+.work-popup-desc {
+  margin: 0 0 0.5rem;
+  font-size: 0.55rem;
+  line-height: 1.4;
+}
+
+.work-popup-tech {
+  margin: 0 0 0.75rem;
+  padding-left: 1rem;
+  font-size: 0.55rem;
+}
+
+.work-popup-tech li {
+  margin-bottom: 0.25rem;
+}
+
+.work-popup-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #0F62FE;
+  color: #FFF;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.6rem;
+}
