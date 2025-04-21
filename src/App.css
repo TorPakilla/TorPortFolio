@@ -38,7 +38,6 @@ body, html, #root {
   overflow: visible;        
 }
 
-/* Skills grid */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -74,4 +73,46 @@ body, html, #root {
 *::-webkit-scrollbar {
   width: 0;
   height: 0;
+}
+
+.rpg-title.skills {
+  font-size: 1.2rem;
+}
+
+/* Mobile (จอเล็กกว่า 768px) */
+@media (max-width: 768px) {
+  /* เปลี่ยนให้ wrapper เป็นแนวตั้ง */
+  .app-wrapper {
+    flex-direction: column;
+    height: auto;
+    overflow: auto;
+  }
+
+  /* Sidebar เต็มความกว้าง */
+  .sidebar {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  /* Right panel เต็ม */
+  .right-panel {
+    padding: 0.5rem;
+  }
+
+  /* แผนที่ลดความสูงลง */
+  .map-wrapper {
+    height: 250px;       /* ปรับตามชอบ */
+    margin-bottom: 1rem;
+  }
+
+  /* กริดสกิล แสดงคอลัมน์เดียว */
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  /* ย่อขนาดหัวข้อในกริดสกิล */
+  .skills-grid h3 {
+    font-size: 1.2rem;
+  }
 }

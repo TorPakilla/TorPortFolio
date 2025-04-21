@@ -39,7 +39,7 @@ export const markersData = [
       subtitle: "Side Project",
       description: "Show a brief history and past experiences.",
       tech: ["📊 React.js, CSS"],
-      github: "https://github.com/yourusername/warehouse-dashboard",
+      github: "https://github.com/TorPakilla/TorPortFolio",
     },
   },
   // … เพิ่มรายการอื่น 

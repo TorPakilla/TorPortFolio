@@ -61,7 +61,8 @@ export default function App() {
         <div className="rpg-section rpg-bordered-section skills-grid">
           <div className="rpg-column">
             <h3>
-              <FaCode /> Skills & Libraries
+              <h3 className="rpg-title skills"><FaCode /> Skills & Libraries</h3>
+
             </h3>
             <ul>
               <li>React.js</li>
@@ -74,7 +75,7 @@ export default function App() {
           </div>
           <div className="rpg-column">
             <h3>
-              <FaToolbox /> Tools & Technologies
+            <h3 className="rpg-title skills"><FaToolbox /> Tools & Technologies</h3>
             </h3>
             <ul>
               <li>Visual Studio Code</li>
@@ -87,7 +88,7 @@ export default function App() {
           </div>
           <div className="rpg-column">
             <h3>
-              <FaDatabase /> Database
+            <h3 className="rpg-title skills"><FaDatabase /> Database</h3>
             </h3>
             <ul>
               <li>PostgreSQL</li>

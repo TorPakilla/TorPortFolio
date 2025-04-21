@@ -82,11 +82,86 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.6rem;
+  font-size: 0.61rem;
   margin: 0.25rem 0;
 }
 
 .rpg-section p svg {
   font-size: 0.6rem;
   vertical-align: middle;
+}
+
+.rpg-divider {
+  border-top: 2px dashed #ffd700;
+  margin: 10px auto;
+  width: 80%;
+}
+
+.rpg-download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px auto;
+  background-color: #ffd700;
+  color: #000;
+  padding: 4px 14px;
+  border: 3px double #333;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  width: fit-content;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  box-shadow: 0 0 5px #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.rpg-download-btn:hover {
+  background-color: #ffcc00;
+  color: #111;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  /* กรอบโปรไฟล์แคบลงสวยงาม */
+  .rpg-frame {
+    padding: 0.75rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* ย่อ avatar */
+  .rpg-avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* ชื่อกับบทบาทย่อฟอนต์ */
+  .rpg-name {
+    font-size: 0.9rem;
+  }
+  .rpg-role {
+    font-size: 0.8rem;
+  }
+
+  /* ปรับปุ่มดาวน์โหลดให้เต็มกว้าง และย่อฟอนต์ */
+  .rpg-download-btn {
+    width: 100%;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
+
+  /* ย่อฟอนต์ Stats */
+  .rpg-stats {
+    font-size: 0.7rem;
+  }
+
+  /* ย่อหัวข้อ Contact */
+  .rpg-section h3 {
+    font-size: 1rem;
+  }
+  .rpg-section p {
+    font-size: 0.75rem;
+  }
 }
