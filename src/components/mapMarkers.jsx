@@ -3,8 +3,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { FaBriefcase, FaFolderOpen } from "react-icons/fa";
 import WorkPopup from "./WorkPopup";
-import posScreenshot from "../assets/Warehouse.PNG";
-import dashboardScreenshot from "../assets/Port.PNG";
+import posScreenshot from "../assets/Warehouse.png";
+import dashboardScreenshot from "../assets/Port.png";
 
 export const markersData = [
   {
